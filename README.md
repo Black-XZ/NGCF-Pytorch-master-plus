@@ -52,7 +52,7 @@ It contains structured review information suitable for:
 ### Option 2: Kaggle API
 ```bash
 kaggle datasets download -d blackxz/amazon-review23-books10core
-
+```
 
 ## Running the Code
 
@@ -62,17 +62,17 @@ This section provides reference commands for training, evaluation, and pretraini
 
 ```bash
 python main.py --dataset Books_10core --rating_file ../Data/Books_10core/Books_10core.jsonl --gpu_id 0 --lr 0.001 --epoch 200 --batch_size 2048 --valid_flag 1 --patience 5 --save_flag 1 --sentiment_file ../Data/Books_10core/sentiment.jsonl --alpha 0.3
-
+```
 ### Evaluation
 
 ```bash
 python main.py --dataset Books_10core --rating_file ../Data/Books_10core/Books_10core.jsonl --gpu_id 0 --pretrain 1 --pretrain_path model/9.pkl --sentiment_file ../Data/Books_10core/sentiment.jsonl --alpha 0.3
-
+```
 ### Pretraining
 
 ```bash
 python main.py --dataset Books_10core --rating_file ../Data/Books_10core/Books_10core.jsonl --gpu_id 0 --lr 0.001 --pretrain 2 --pretrain_path model/9.pkl --epoch 200 --batch_size 2048 --valid_flag 1 --patience 5 --save_flag 1 --sentiment_file ../Data/Books_10core/sentiment.jsonl --alpha 0.3
-
+```
 Notes
 
 rating_file specifies the processed Amazon Books 10-core review data.
