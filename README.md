@@ -85,3 +85,13 @@ pretrain flag:
 
 
 alpha controls the contribution of sentiment information.
+
+### 部分运行结果展示
+
+![](presentation1.png)
+
+![](presentation2.png)
+
+![](presentation3.png)
+
+![](presentation4.png)
