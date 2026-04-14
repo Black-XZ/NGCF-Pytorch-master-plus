@@ -88,6 +88,11 @@ alpha controls the contribution of sentiment information.
 
 ### 部分运行结果展示
 
+<img width="1184" height="888" alt="NDCG@20_comparison" src="https://github.com/user-attachments/assets/90a6f1ff-1d86-41bc-ac16-d59c2d201d1d" />
+<img width="1184" height="888" alt="NDCG@100_comparison" src="https://github.com/user-attachments/assets/3a0cc3f5-381f-4c24-9620-4088600c2b0a" />
+<img width="1184" height="888" alt="Recall@100_comparison" src="https://github.com/user-attachments/assets/01a9cf04-c716-47d6-921a-88c46ebecc59" />
+<img width="1184" height="888" alt="Recall@20_comparison" src="https://github.com/user-attachments/assets/5aed91f4-735d-4921-9042-2e388ecf718f" />
+
 ![](presentation1.png)
 
 ![](presentation2.png)
